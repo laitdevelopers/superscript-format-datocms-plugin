@@ -1,3 +1,14 @@
-# [Your plugin name]
+# DatoCMS Formats
 
-[Describe what your plugin does, and how users you can configure it! Screenshots are always welcome!]
+This plugin gives the posibility to add subscript and superscript format in the Structured text editor
+
+## Formats for DatoCMS
+
+-Subscript
+-Superscript
+
+### Author
+
+Anders Bootsmann Larsen</br>
+ab@lait.dk</br>
+LAIT Aps</br>

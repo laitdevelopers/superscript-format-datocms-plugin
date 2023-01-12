@@ -10,9 +10,6 @@ export default function ConfigScreen({ ctx }: Props) {
   return (
     <Canvas ctx={ctx}>
       <p>Datocms Formats. </p>
-      <div className={s.inspector}>
-        <ContextInspector />
-      </div>
     </Canvas>
   );
 }
