@@ -1,7 +1,15 @@
 {
-  "name": "my-first-plugin",
-  "version": "0.1.0",
-  "private": true,
+  "name": "datocms-plugin-formats-super-sub",
+  "version": "1.1.0",
+  "homepage": "https://lait.dk",
+  "description": "This DatoCMS plugin adds the possibility to add superscript and subscript format",
+  "repository": "https://github.com/laitdevelopers/superscript-format-datocms-plugin/",
+  "author": {
+    "name": "LAIT Anders Bootsmann",
+    "email": "ab@lait.dk"
+  },
+  "license": "MIT",
+  "icon": "cover.png",
   "dependencies": {
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
@@ -18,7 +26,12 @@
     "build": "cross-env PUBLIC_URL='.' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "pub:major": "npm version major --force && npm publish",
+    "pub:minor": "npm version minor --force && npm publish",
+    "pub:patch": "npm version patch --force && npm publish",
+    "pub:beta": "npm version patch --force && npm publish --access public --tag beta",
+    "pub:local": "npm pack --force"
   },
   "eslintConfig": {
     "extends": [
@@ -40,10 +53,25 @@
   "devDependencies": {
     "cross-env": "^7.0.3"
   },
+  "keywords": [
+    "datocms",
+    "datocms-plugin",
+    "plugin",
+    "superscript",
+    "subscript",
+    "text-format",
+    "structuredtext",
+    "format"
+  ],
+  "files": [
+    "build/",
+    "cover.png"
+  ],
   "datoCmsPlugin": {
-    "title": "",
-    "previewImage": "",
-    "coverImage": "",
-    "entryPoint": "build/index.html"
+    "title": "Formats Sub- and supscript",
+    "previewImage": "cover.jpg",
+    "coverImage": "cover.jpg",
+    "entryPoint": "build/index.html",
+    "permissions": []
   }
 }
