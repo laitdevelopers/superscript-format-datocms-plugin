@@ -1,6 +1,6 @@
 {
 	"name": "@lait/datocms-plugin-formats-super-sub",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"homepage": "https://lait.dk",
 	"description": "This DatoCMS plugin adds the possibility to add superscript and subscript format",
 	"repository": "https://github.com/laitdevelopers/superscript-format-datocms-plugin/",
